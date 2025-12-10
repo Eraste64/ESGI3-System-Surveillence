@@ -1,8 +1,9 @@
-class TemperatureSensorA {
-    constructor(location) {
+class TemperatureSensorB {
+    constructor(location, threshold) {
         this.location = location;
-    } // location = nom de la pièce
+        this.threshold = threshold;
+    } // location = nom de la pièce, threshold = température
     detect() {
-        return `Détection par ${this.constructor.name} dans ${this.location}`;
+        return `Détection par ${this.constructor.name} dans ${this.location}, température : ${this.threshold}°C`;
     } // Déclenche un message d’alerte (string)
 }

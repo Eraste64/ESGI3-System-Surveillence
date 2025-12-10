@@ -10,5 +10,3 @@ class ThermalSensorB {
         };
     } // Déclenche une donnée complexe json, voir ci dessous
 }
-
-console.log(new ThermalSensorB("Entrée").scanHeatSignature());
