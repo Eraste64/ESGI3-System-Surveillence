@@ -1,5 +1,8 @@
-TemperatureSensorA
 class TemperatureSensorA {
-    constructor(location, threshold) { } // location = nom de la pièce, threshold = température de déclenchement
-    detect() { } // Déclenche un message d’alerte (string)
+    constructor(location) {
+        this.location = location;
+    } // location = nom de la pièce
+    detect() {
+        return `Détection par ${this.constructor.name} dans ${this.location}`;
+    } // Déclenche un message d’alerte (string)
 }

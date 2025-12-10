@@ -1,5 +1,5 @@
 {
-    "sensor": "<name>",
-    "detection": "<detection type>",
-    "date": "<current date and time>"
+    "sensor": "ThermalSensorsB",
+    "detection": "thermal",
+    "date": "2024-06-15"
 }
